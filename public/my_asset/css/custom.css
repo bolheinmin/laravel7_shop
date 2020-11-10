@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.myFont{
+    font-family: 'Itim', cursive!important;
+}
+.nh_btn:focus {
+    box-shadow: none!important;
+    outline: none!important;
+}
+.img_hover {
+    transition: all 1s ease;
+}
+.img_hover:hover {
+    transform: scale(1.2);
+}
+.mainColor {
+    background-color: #1A5276!important;
+}
+footer {
+    bottom:0;
+    width: 100%;
+}
+.sliderImg {
+    width: 900px!important;
+    height: 350px!important;
+    object-fit: cover;
+}

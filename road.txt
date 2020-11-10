@@ -1,0 +1,23 @@
+Project Flow
+------------
+    -item management
+    -user management
+    -order management
+
+    * Daily Report
+    * Monthly Report
+    *
+------------------
+Database Structure
+------------------
+    -item
+        -brands (name, photo)
+        -categories (name,photo)
+        -subcategories (name, category_id)
+        -items (codeno, name, brand_id, subcategory_id, photo, price, discount, description )
+    -user
+        -roles
+        -users
+    -order
+        -order
+        -order_details
